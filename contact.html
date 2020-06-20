@@ -17,9 +17,9 @@
     <nav class="navbar navbar-expand-md navbar-light py-4">
         <div class="container">
             <a href="index.html" class="navbar-brand">
-                <img src="vector.svg" alt="logo">
+                <img src="img/vector.svg" alt="logo">
                 <br>
-                <img src="luxe-living.svg" alt="logo">
+                <img src="img/luxe-living.svg" alt="logo">
                 <!-- <h3 class="d-inline align-middle">
                     <span class="text-primary">Luxe Living</span
                 </h3> -->
@@ -70,6 +70,8 @@
                     </div>
 
 
+
+
                     <!-- CONTACT MODAL -->
                     <div class="modal fade text-dark" id="contactModal">
                         <div class="modal-dialog">
@@ -81,24 +83,51 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <form action="">
-                                        <div class="form-group">
-                                            <label for="name">Name</label>
-                                            <input type="text" class="form-control validate" required="required">
+
+
+
+
+
+
+                                    <form class="needs-validation" novalidate>
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <label for="validationTooltip01">Name</label>
+                                                <input type="text" class="form-control" id="validationCustom03" required>
+                                                <div class="invalid-feedback">
+                                                    Please Enter Name
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="validationTooltip02">Email</label>
+                                                <input type="text" class="form-control" id="validationCustom03" required>
+                                                <div class="invalid-feedback">
+                                                    Please Enter Email
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="validationTooltipUsername">Message</label>
+
+                                                <textarea name="" id="" cols="30" rows="10" class="form-control" id="validationTooltipUsername" required/></textarea>
+
+                                                <div class="invalid-feedback">
+                                                    Please Write A Message
+
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="email">Email</label>
-                                            <input type="text" class="form-control validate" required="required">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="name">Message</label>
-                                            <textarea name="" id="" cols="30" rows="10" class="form-control validate" required="required"></textarea>
-                                        </div>
+
+
+                                        <button type="submit" class="btn btn-primary custom-btn btn-block">Submit</button>
                                     </form>
+
+
+
+
+
+
                                 </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary custom-btn btn-block">Submit</button>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -142,6 +171,9 @@
 
     <!-- Navigation -->
     <section id="map"></section>
+
+
+    
 
 
     <!-- Footer -->
@@ -201,7 +233,7 @@
 
 
             <div class="text-center">
-            Copyright &copy; by Luxe Living. All Rights Reserved </div>
+                Copyright &copy; by Luxe Living. All Rights Reserved </div>
 
         </footer>
 
@@ -210,6 +242,9 @@
     </div>
 
     <!-- Scripts -->
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
